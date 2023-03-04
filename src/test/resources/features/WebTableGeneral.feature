@@ -33,7 +33,7 @@ Feature: Some of the general functionality verifications
     And user clicks to process order button
     Then user should see "Jane Doe" in the first row of the web table
 
-  @wip
+
   Scenario Outline: Order placement scenario
     Given user is already logged in to The Web table app
     When user is on the Order page
